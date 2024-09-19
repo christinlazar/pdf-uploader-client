@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const Api = axios.create({
-    baseURL:'https://pdf-uploader-server-vert.vercel.app/',
+    baseURL:'https://pdf-uploader-server-vert.vercel.app',
     withCredentials:true
 })
 
